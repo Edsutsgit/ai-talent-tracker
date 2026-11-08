@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 # Page Configuration & Header
 # -----------------------------------------
 st.set_page_config(page_title="Global AI Talent Tracker", layout="wide")
-st.title("Global AI Talent Mobility Dashboard")
+st.title("Global AI Talent Mobility")
 st.markdown("### Where do top AI researchers train, and where do they end up working?")
 st.markdown("Explore the migration pathways of top-tier AI researchers from their undergraduate training regions to their current employment destinations.")
 
