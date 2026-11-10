@@ -46,8 +46,8 @@ countries = df['country_or_region'].tolist()
 num_countries = len(countries)
 pool_index = num_countries * 2
 
-labels = [f"Educated in {c}" for c in countries] + \
-         [f"Working in {c}" for c in countries] + \
+labels = [f"{c} (Trained)" for c in countries] + \
+         [f"{c} (Work)" for c in countries] + \
          ["International Talent Pool"]
 
 # Apply colors: full color if selected or global view, muted grey otherwise
